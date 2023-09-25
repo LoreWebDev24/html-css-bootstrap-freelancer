@@ -5,12 +5,11 @@
 }
 
 /* body {
-    overflow-x: hidden;
+    overflow-x: scroll;
 } */
 
 .header {
     background-color: var(--header);
-    height: 80px;
 }
 
 .jumbotron {
