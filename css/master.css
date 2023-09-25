@@ -3,9 +3,9 @@
     --jumbotron: #1ABC9C; 
 }
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 .header {
     background-color: var(--header);
