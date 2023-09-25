@@ -23,16 +23,16 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto">
                     <div class="logo">
-                        <a class="text-decoration-none text-white" href="#"><h2>START BOOTSRAP</h2></a>
+                        <a class="text-decoration-none text-white" href="#"><h2 class="mb-0">START BOOTSRAP</h2></a>
                     </div>
                 </div>
                 <div class="col-auto ">
-                    <ul class="nav navbar-nav d-flex flex-row gap-3">
+                    <ul class="d-none d-sm-flex nav navbar-nav d-flex flex-row gap-3">
                         <li class="nav-item"><a class="text-decoration-none text-white" href="#">PORTFOLIO</a></li>
                         <li class="nav-item"><a class="text-decoration-none text-white" href="#">ABOUT</a></li>
                         <li class="nav-item"><a class="text-decoration-none text-white" href="#">CONTACT</a></li>
                     </ul>
-                    <a href="#"><i class="fa-solid fa-bars text-white border p-2 rounded d-none "></i></a>
+                    <a href="#"><i class="fa-solid fa-bars text-white border p-2 rounded  d-xs-inline-block d-sm-none"></i></a>
                 </div>
             </div>
         </div>
@@ -40,15 +40,27 @@
     <!-- JUMBOTRON -->
     <section class="jumbotron pt-5 pb-5">
         <div class="container">
-            <div class="row justify-content-center ">
-                <div class="col-auto">
-                    <img src="./img/avatar.svg" alt="">
+            <div class="row justify-content-center flex-column align-items-center">
+                <div class="col-auto box justify-content-center">
+                    <div class="card-img text-center">
+                        <img class="" src="./img/avatar.svg" alt="">
+                    </div>
                 </div>
-                <div class="col-auto">
+                <div class="col-auto box">
                     <h1 class="text-white">START BOOTSTRAP</h1>
                 </div>
-                <div class="col-auto"></div>
-                <div class="col-auto"></div>
+                <div class="col-auto box ">
+                    <span class="star d-flex flex-row justify-content-center align-items-center gap-2"><i class="fa-solid fa-star text-white"></i></span>
+                </div>
+                <div class="col-auto box">
+                    <ul class="d-inline-block list-inline d-flex gap-2">
+                        <li class="text-white"><a class="text-decoration-none text-white" href="">GRAPHIC ARTIST</a></li>
+                        <li class="text-white">-</li>
+                        <li class="text-white"><a class="text-decoration-none text-white" href="">WEB DESIGNER</a></li>
+                        <li class="text-white">-</li>
+                        <li class="text-white"><a class="text-decoration-none text-white" href="">ILLUSTARTOR</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
