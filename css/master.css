@@ -1,6 +1,7 @@
 :root { 
     --header: #2C3E50 ;
     --jumbotron: #1ABC9C; 
+    --about: #1ABC9C;
 }
 
 /* body {
@@ -16,10 +17,14 @@
     background-color: var(--jumbotron);
 }
 
+.about {
+    background-color: var(--about);
+}
+
 .star::before {
     content: '';
 	display: block;
-    width: 160px;
+    width: 10vw;
     height: 2px;
     background-color: white;
 }
@@ -27,7 +32,7 @@
 .star::after {
     content: '';
 	display: block;
-    width: 160px;
+    width: 10vw;
     height: 2px;
     background-color: white;
 }
@@ -35,7 +40,7 @@
 .star-black::before {
     content: '';
 	display: block;
-    width: 160px;
+    width: 10vw;
     height: 2px;
     background-color: black;
 }
@@ -43,7 +48,7 @@
 .star-black::after {
     content: '';
 	display: block;
-    width: 160px;
+    width: 10vw;
     height: 2px;
     background-color: black;
 }
@@ -54,9 +59,9 @@
 
 
 @media screen and (min-width: 576px) {
-    body {
+    /* body {
         overflow-x: scroll;
-    }
+    } */
 
 }
 
