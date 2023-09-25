@@ -1,0 +1,21 @@
+:root { 
+    --header: #2C3E50 ;
+    --jumbotron: #1ABC9C; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: var(--header);
+    height: 80px;
+}
+
+.jumbotron {
+    background-color: var(--jumbotron);
+}
+
+
+
+
