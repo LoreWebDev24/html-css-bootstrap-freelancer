@@ -7,16 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-img {
-    width: 50%;
-    height: 50%;
-  }
-
-.box {
-    padding: 20px 20px;
-    border: 1px solid red;
-}
-
 .header {
     background-color: var(--header);
     height: 80px;
@@ -29,7 +19,7 @@ img {
 .star::before {
     content: '';
 	display: block;
-    width: 50px;
+    width: 160px;
     height: 2px;
     background-color: white;
 }
@@ -37,10 +27,29 @@ img {
 .star::after {
     content: '';
 	display: block;
-    width: 50px;
+    width: 160px;
     height: 2px;
     background-color: white;
 }
+
+.star-black::before {
+    content: '';
+	display: block;
+    width: 160px;
+    height: 2px;
+    background-color: black;
+}
+
+.star-black::after {
+    content: '';
+	display: block;
+    width: 160px;
+    height: 2px;
+    background-color: black;
+}
+
+
+
 /* MEDIA QUERYS  */
 
 
