@@ -1,25 +1,43 @@
 :root { 
     --header: #2C3E50 ;
     --jumbotron: #1ABC9C; 
+    /* and submit form too */
     --about: #1ABC9C;
+    --footer-1:#3A546D;
+    --footer-2:#2C3E50;
+}
+
+::placeholder {
+    color: black;
+    font-weight: 600;
 }
 
 .header {
     background-color: var(--header);
 }
 
-.jumbotron {
+.jumbotron, .bg-submit,.about {
     background-color: var(--jumbotron);
 }
 
-.about {
-    background-color: var(--about);
+.social{
+    width: 12px;
+    height: 12px;
+    padding: 20px;
+}
+
+.footer-1 {
+    background-color: var(--footer-1);
+}
+
+.footer-2 {
+    background-color: var(--footer-2);
 }
 
 .star::before, .star::after {
     content: '';
 	display: block;
-    width: 10vw;
+    width: 7vw;
     height: 3px;
     background-color: white;
     border-radius: 99px;
@@ -28,34 +46,8 @@
 .star-black::before, .star-black::after {
     content: '';
 	display: block;
-    width: 10vw;
+    width: 7vw;
     height: 3px;
     background-color: black;
     border-radius: 99px;
 }
-
-/* MEDIA QUERYS  */
-
-
-@media screen and (min-width: 576px) {
- 
-}
-
-@media screen and (min-width: 768px) {
-
- }
-
-@media screen and (min-width: 992px) {
-
- }
-
-@media screen and (min-width: 1200px) { 
-
-}
-
-@media screen and (min-width: 1400px) { 
- 
-}
-
-
-

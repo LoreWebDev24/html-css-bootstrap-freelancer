@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootsrap-Free</title>
     <!-- BOOTSRAP 5.3.2 -->
-    <link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-			crossorigin="anonymous"
-		/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- MASTER.CSS -->
     <link rel="stylesheet" href="./css/master.css">
     <!-- FONTAWESOME -->
@@ -20,7 +15,7 @@
     <!-- HEADER OF THE PAGE  -->
     <header class="header d-flex align-items-center pt-3 pb-3">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center gy-4">
                 <div class="col-auto">
                     <div class="logo">
                         <a class="text-decoration-none text-white" href="#"><h2 class="mb-0 fw-bold">START BOOTSRAP</h2></a>
@@ -32,7 +27,7 @@
                         <li class="nav-item"><a class="text-decoration-none text-white fw-semibold" href="#">ABOUT</a></li>
                         <li class="nav-item"><a class="text-decoration-none text-white fw-semibold" href="#">CONTACT</a></li>
                     </ul>
-                    <a href="#"><i class="fa-solid fa-bars text-white border p-2 rounded  d-xs-inline-block d-sm-none"></i></a>
+                    <a href="#"><i class="fa-solid fa-bars text-white border p-2 rounded  d-inline-block d-sm-none text-white-50"></i></a>
                 </div>
             </div>
         </div>
@@ -53,7 +48,7 @@
                     <div class="star d-flex flex-row justify-content-center align-items-center gap-2"><i class="fa-solid fa-star text-white fs-4"></i></div>
                 </div>
                 <div class="col-auto box">
-                    <ul class="d-inline-block list-inline d-flex flex-wrap gap-2 pt-2">
+                    <ul class="list-inline d-flex flex-wrap gap-2 pt-2 fs-5 fw-semi-bold">
                         <li class="text-white"><a class="text-decoration-none text-white" href="">GRAPHIC ARTIST</a></li>
                         <li class="text-white">-</li>
                         <li class="text-white"><a class="text-decoration-none text-white" href="">WEB DESIGNER</a></li>
@@ -70,22 +65,22 @@
         <div class="star-black d-flex flex-row justify-content-center align-items-center gap-2 "><i class="fa-solid fa-star fs-4"></i></div>
         <div class="container pt-3">
             <div class="row justify-content-center gy-4 flex-wrap">
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/cabin.png" alt="">
                 </div> 
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/cake.png" alt="">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/circus.png" alt="">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/game.png" alt="">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/safe.png" alt="">
                 </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
+                <div class="col-12 col-sm-6 col-lg-4">
                     <img class="card-img  rounded " src="./img/submarine.png" alt="">
                 </div>
             </div>
@@ -95,12 +90,12 @@
     <section class="about pt-5 pb-5">
         <h2 class="text-center text-white">ABOUT</h2>
         <div class="star d-flex flex-row justify-content-center align-items-center gap-2"><i class="fa-solid fa-star text-white fs-4"></i></div>
-        <div class="container-sm">
-            <div class="row">
-                <div class="col-lg-6 col-xs-12">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8 col-sm-5">
                     <p class="text-white fw-semibold pt-4">Freelancer is a free Bootstrap theme created by Lorenzo Del Re. The download includes the complete source files including HTML,CSS and JAVASCRIPT as well as optional LESS stylesheets for easy customization</p>
                 </div>
-                <div class="col-lg-6 col-xs-12">
+                <div class="col-8 col-sm-5">
                     <p class="text-white fw-semibold pt-4">Freelancer is a free Bootstrap theme created by Lorenzo Del Re. The download includes the complete source files including HTML,CSS and JAVASCRIPT as well as optional LESS stylesheets for easy customization</p>
                 </div>
                 <div class="download d-flex justify-content-center pt-4">
@@ -114,6 +109,56 @@
         <h2 class="text-center">CONTACT ME</h2>
         <div class="star-black d-flex flex-row justify-content-center align-items-center gap-2 "><i class="fa-solid fa-star fs-4"></i></div>
         <div class="container pt-3">
+            <div class="container pt-5">
+				<div class="row">
+					<div class="col-12">
+                        <!-- THE FORM IS CLEARLY NOT! WELL DONE.. IS JUST MADE FOR A GRAPHIC EFFECT AND FOR BOOTSRAP PRACTICE, STYLED ONLY WITH BS. CLASSES. I SAY THIS BECAUSE WITHOUT THIS FORM THE HTML CODE HAS NO ERRORS OR WARNINGS TO SHOW BUT ADDING IT WAS IMPORTANT FOR THE GRAPHIC RESULT IN THIS EXERCISE EVEN IF THE FORM IS NOT PERFECTLY WRITTEN -->
+						<form class="d-flex flex-column border-0" action="" method="post">
+							<input name="name" class="border-bottom border-0 pb-3 text" type="text" placeholder="Name" />
+							<input name="email" class="border-bottom border-0 pb-3 pt-2 type="email" placeholder="Email Address" />
+							<input name="phone" class="border-bottom border-0 pb-3 pt-2 type="text" placeholder="Phone Number"/>
+							<textarea class="border-bottom border-0 pb-5 pt-2" name="customer-infos" id="" cols="30" rows="8" placeholder="Message"></textarea>
+						</form>
+                        <div class="submit-button pt-3 ">
+                           <a class="text-decoration-none text-white" href="#"><span class="bg-submit border p-2 rounded">Send</span></a>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
     </section>
+    <!-- FOOTER -->
+    <footer>
+        <!-- FOOTER-1 -->
+        <section class="footer-1 text-center py-5 text-white fw-normal">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-md-4 d-flex flex-column align-items-center gap-3">
+                        <h3 class="fw-normal h4">LOCATION</h3>
+                        <P class="w-75 mb-0">2215 Jhon Doe Street Drive Clark, MO 54243</P>
+                    </div>
+                    <div class="col-md-4 d-flex gap-3 flex-column">
+                        <h3 class="fw-normal h4">AROUND THE WEB</h3>
+                        <div class="socials d-flex gap-3 justify-content-center">
+                            <a class="text-decoration-none text-white" href="#"><span class="social border rounded-circle d-flex justify-content-center align-items-center text-center"><i class="fa-brands fa-facebook-f"></i></span></a>
+                            <a class="text-decoration-none text-white" href=""><span class="social border rounded-circle d-flex justify-content-center align-items-center  text-center"><i class="fa-brands fa-google-plus-g"></i></span></a>
+                            <a class="text-decoration-none text-white" href=""><span class="social border rounded-circle  d-flex justify-content-center align-items-center text-center"><i class="fa-brands fa-x-twitter"></i></span></a>
+                            <a class="text-decoration-none text-white" href=""><span class="social border rounded-circle d-flex justify-content-center align-items-center  text-center"><i class="fa-brands fa-linkedin-in"></i></span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex flex-column align-items-center gap-3">
+                        <h3 class="fw-normal h4">ABOUT FREELANCER</h3>
+                        <P class="w-75">Freelance is a free to use, open source Bootsrap theme created by <span class="text-success"><a class="text-decoration-none text-success" href="">Lorenzo Del Re</a></span></P>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER-2 -->
+        <div class="footer-2 pt-4 pb-5 text-center text-white">
+            <div class="container">
+                <p class="footer-2__p">Copyright © Lorenzo Del Re Web-Dev</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
